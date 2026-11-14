@@ -49,13 +49,15 @@ Eligibility is evaluated using beginner-friendly conditional logic:
 Participants outside these age brackets or restricted sport combinations are marked as **Not Eligible**.
 
 ---
-##🛠️Technologies used
+## 🛠️ **Technologies used**
 
--Python
--Flask
--HTML
--CSS
--SQLite
+- Python
+- Flask
+- HTML
+- CSS
+- SQLite
+
+---
 
 ## 🗄️ Database Structure (`sports_system.db`)
 
@@ -119,5 +121,7 @@ c:\mini project\
     ├── add_participant.html   # 5-field registration form
     └── edit_participant.html  # 5-field edit form
 ```
-##Project Objective
+---
+
+## **Project Objective**
 Developed as a BCA mini-project to gain practical experience in Python,Flask,SQLite and web development.
