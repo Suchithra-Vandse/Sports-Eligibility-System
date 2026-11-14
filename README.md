@@ -1,19 +1,18 @@
 # Sports Eligibility Management System
 
-A simple, professional, and beginner-friendly BCA mini-project built with **Python Flask**, **HTML5**, **CSS3**, and **SQLite**.
 
 ---
 
 ## 📌 Project Overview
 
-The **Sports Eligibility Management System** is designed to manage sports participant registrations and evaluate their eligibility status dynamically based on age and competition levels. 
+The **Sports Eligibility Management System** is a web-based application developed using Python and Flask to manage sports participants and automatically check their eligibility.
 
 ### Key Features
 - **Dashboard:** Displays three clean summary cards:
   - Total Participants
   - Eligible Participants
   - Not Eligible Participants
-- **Participant Registration:** Form containing ONLY the 5 required fields:
+- **Participant Registration:** Registration using 5 fields:
   - Participant Name
   - Age
   - Gender (`Male`, `Female`, `Other`)
@@ -21,7 +20,7 @@ The **Sports Eligibility Management System** is designed to manage sports partic
   - Competition Level
 - **View Participants:** Tabular display showing ONLY the required columns:
   `Participant Name | Age | Gender | Sports Name | Competition Level | Eligibility Status | Actions`
-- **Actions:** Edit and Delete operations with instant eligibility recalculation.
+- **Actions:** Edit and Delete participant records
 - **Automated Eligibility Checking:** Instant evaluation upon adding or updating participant details.
 
 ---
@@ -50,6 +49,13 @@ Eligibility is evaluated using beginner-friendly conditional logic:
 Participants outside these age brackets or restricted sport combinations are marked as **Not Eligible**.
 
 ---
+##🛠️Technologies used
+
+-Python
+-Flask
+-HTML
+-CSS
+-SQLite
 
 ## 🗄️ Database Structure (`sports_system.db`)
 
@@ -113,3 +119,5 @@ c:\mini project\
     ├── add_participant.html   # 5-field registration form
     └── edit_participant.html  # 5-field edit form
 ```
+##Project Objective
+Developed as a BCA mini-project to gain practical experience in Python,Flask,SQLite and web development.
